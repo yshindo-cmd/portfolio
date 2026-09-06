@@ -1,0 +1,113 @@
+/* すべてに適用 */
+html {
+    font-size: 20px;
+    font-family: 'Shippori Minchou', serif;
+}
+/* トップ画像に適用 */
+.top_img, .aisatu{
+    text-align: center;
+    margin: 20px 0 ;
+}
+.top_img img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: inline-block;
+}
+/* メインメニューに適用 */
+nav ul {
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+.n1, .n3 {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+}
+.n2, .n4{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    }
+a:link {
+    color: #749F82;
+    text-decoration: none;
+}
+a:visited {
+    color: #749F82;
+    text-decoration: none;
+}
+a:visited {
+    color: #749F82;
+    text-decoration: underline;
+}
+a:hover {
+    color: #4C6CB3;
+    text-decoration: underline;
+}
+a:active {
+    color: #4C6CB3;
+    text-decoration: underline;
+}
+
+main{
+    margin:90px auto 90px auto;
+    max-width: 1000px;
+}
+/* 全体背景色を指定 */
+body {
+    background-color: #FDF2F4;
+}
+/* 文字間隔、色を指定 */
+p{
+    line-height: 1.7;
+    color: #6E472B;
+}
+h2,h3 {
+    color: #5C3A21;
+}
+/* 動画手順の説明 */
+.section{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+/* 動画設定 */
+.video-box{
+    flex: 1;
+    min-width: 0;
+}
+.video-box video{
+    width: 100%;
+    max-height: 350px;
+    border-radius: 8px;
+}
+/* 文字設定 */
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.use-box{
+    color: #35623d;
+    border: 2px solid #5C3A21;
+    border-radius: 8px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    max-width: 500px;
+}
+/* 署名を右側へ */
+.right{
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+/* フッターレイアウト指定 */
+footer{
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンドウ ユイカ</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="top">
+    <header>
+        <div class="top_img">
+            <a href="index.html"><img src="images/top.jpg" alt="PORTFORIO">
+            </a>
+        </div>
+        <div class="aisatu">
+            <h3>この度は、選考の機会をいただき誠にありがとうございます。</h3>
+        </div>
+        <nav>
+            <ul>
+                <div class="n1">
+                    <li><a href="index.html#intro">当サイト制作意図</a></li>
+                    <li><a href="index.html#page_point">ポートフォリオ留意点</a></li>
+                    <li><a href="index.html#app_background">アプリ開発背景</a></li>
+                    <li><a href="index.html#app_point">アプリ開発留意点</a></li>
+                </div>
+                <div class="n2">
+                    <li><a href="index.html#func">自作アプリの機能説明</a></li>
+                </div>
+                <div class="n3">
+                    <li><a href="index.html#insert">登録</a></li>
+                    <li><a href="index.html#edit">編集</a></li>
+                    <li><a href="index.html#delete">削除</a></li>
+                    <li><a href="index.html#serch">検索</a></li>
+                </div>
+                <div class="n4">
+                    <li><a href="index.html#finish">最後に</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="intro">
+            <h2>当サイト制作意図</h2>
+            <p>AndroidStudioにて個人開発した「スイーツメモ」アプリのご紹介をさせていただきます。
+                採用担当者様の確認コストを考慮し、主要機能が視覚的に確認できるよう紹介ページを作成、GitHub Pageにてコードを公開する形をとらせていただきました。
+                半年間の訓練校での授業にて、様々な技術を身に着けましたが、今回はアプリ作成時に使用したJava言語および当サイト作成時におけるHTML/CSSによる
+                Web制作スキルを確認していただけましたら幸いです。
+            </p>
+        </div>
+
+        <div id="page_point"></div>
+        <h2>ポートフォリオ留意点</h2>
+        <p>作成時には、『スラスラわかるHTML&CSSのきほん 第3版 狩野裕東 著』、訓練校での配布物を参考にしました。
+            Gitでのバージョン管理やコミット時においても、インデントなどソースコードのフォーマットを意識しました。</p>
+        <div id="app_background">
+            <h2>アプリ開発背景</h2>
+            <p>訓練校、恩師の一言から着想。</p>
+        </div>
+        <div id="app_point">
+            <h2>アプリ開発留意点</h2>
+            <p>コードの約7割にAIツール（Gemini、Claude）を活用しました。
+                訓練校にて取り扱わなかった知識を吸収・利用するだけでなく、限られた時間を有効に使いUI・UXの質を高めることに注力いたしました。</p>
+        </div>
+        <div id="func">
+            <h2>機能説明</h2>
+        </div>
+        <h3>1.概要</h3>
+        <div class="section">
+            <!-- 左側に動画 -->
+            <div class="video-box">
+                <video src="video/intro.mp4" controls preload="metadata"></video>
+            </div>
+            <!-- 右側 -->
+            <div class="box">
+                <!-- 右側上部に操作内容 -->
+                <div class="use-box box">
+                    <ol>
+                        <li>アプリ起動</li>
+                        <li>画面スクール、現在登録されているスイーツを閲覧</li>
+                        <li>ヘルプマーク押下、使用方法確認</li>
+                    </ol>
+
+                </div>
+                <!-- 右側下部に見どころ -->
+                <div class="text-box">
+                    <p>個人用のメモアプリ。今まで食べた、またはこれから食べたいスイーツの情報を登録すると、スマホのデーターベースに保存されます。
+                        使用方法に関してユーザーがいつでも見返すことができるようツールバーにヘルプマークを用意しました。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="insert">
+            <h3>2.登録</h3>
+        </div>
+        <div class="section">
+            <!-- 左側に動画 -->
+            <div class="video-box">
+                <video src="video/insert.mp4" controls preload="metadata"></video>
+            </div>
+            <!-- 右側 -->
+            <div class="box">
+                <!-- 右側上部に操作内容 -->
+                <div class="use-box box">
+                    <ol>
+                        <li>アプリ起動</li>
+                        <li>画面スクール、現在登録されているスイーツを閲覧</li>
+                        <li>ヘルプマーク押下、使用方法確認</li>
+                    </ol>
+                </div>
+                <p>画面下部、右端ピンク色のFABを押すと登録用のダイアログが出現します。カテゴリリストはユーザー操作にて追加が可能。なお、登録数が多いもの順に上から配置される仕様にいたしました。</p>
+            </div>
+        </div>
+
+        <div id="edit">
+            <h3>3.編集</h3>
+        </div>
+        <div class="section">
+            <!-- 左側に動画 -->
+            <div class="video-box">
+                <video src="video/edit.mp4" controls preload="metadata"></video>
+            </div>
+            <!-- 右側 -->
+            <div class="box">
+                <!-- 右側上部に操作内容 -->
+                <div class="use-box box">
+                    <ol>
+                        <li>アプリ起動</li>
+                        <li>画面スクール、現在登録されているスイーツを閲覧</li>
+                        <li>ヘルプマーク押下、使用方法確認</li>
+                    </ol>
+                </div>
+                <p>
+                    リストに表示されたスイーツを長押しすると、3つの選択肢がダイアログにて表示されます。
+                    ユーザーの操作性を考え、編集画面は登録時と類似性のあるデザインを実装いたしました。以前登録した内容を編集することが可能です。
+                </p>
+            </div>
+        </div>
+        <div id="delete">
+            <h3>4.削除</h3>
+            <div class="section">
+                <!-- 左側に動画 -->
+                <div class="video-box">
+                    <video src="video/delete.mp4" controls preload="metadata"></video>
+                </div>
+                <!-- 右側 -->
+                <div class="box">
+                    <!-- 右側上部に操作内容 -->
+                    <div class="use-box box">
+                        <ol>
+                            <li>アプリ起動</li>
+                            <li>画面スクール、現在登録されているスイーツを閲覧</li>
+                            <li>ヘルプマーク押下、使用方法確認</li>
+                        </ol>
+                    </div>
+                    <p>
+                        削除実施時には、誤操作を減らすよう意識し、選択時にもう一度確認のダイアログを表示させるようプログラミングいたしました。
+                    </p>
+                </div>
+            </div>
+            <div id="serch">
+                <h3>5.検索</h3>
+                <div class="section">
+                    <!-- 左側に動画 -->
+                    <div class="video-box">
+                        <video src="video/serch.mp4" controls preload="metadata"></video>
+                    </div>
+                    <!-- 右側 -->
+                    <div class="box">
+                        <!-- 右側上部に操作内容 -->
+                        <div class="use-box box">
+                            <ol>
+                                <li>アプリ起動</li>
+                                <li>画面スクール、現在登録されているスイーツを閲覧</li>
+                                <li>ヘルプマーク押下、使用方法確認</li>
+                            </ol>
+                        </div>
+                        <p>
+                            青い虫眼鏡のFABを押すと単独での検索だけでなく、複数項目で絞り込み検索することも可能です。
+                            検索を終了して全件リストに戻るボタンは、UIを考慮して検索結果の上部に配置しました。
+                            また、ユーザーが現在、登録・編集と検索のどちらのダイアログを操作しているのか判断しやすいよう対照的な色を採用いたしました。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="finish">
+            <h3>最後に</h3>
+            <p>最後までご覧いただき誠にありがとうございます。
+                今までITツールを利用する立場でしたが、訓練校での半年間を通じて「仕組みを作り出す楽しさ」
+                を知り、Webやアプリの構築スキルを身につけました。
+                これからも新しい技術を学び続け、邁進していく所存です。</p>
+            <div class="right">
+                <h3>進藤結花</h3>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+<footer>
+    <div>
+        <a href="#top">トップへ
+        </a>
+    </div>
+</footer>
+
+
+</html>
